@@ -66,5 +66,4 @@ def setup_app_logging(config: Settings) -> None:
         handlers=[{"sink": sys.stderr, "level": config.logging.LOGGING_LEVEL}]
     )
 
-
 settings = Settings()
