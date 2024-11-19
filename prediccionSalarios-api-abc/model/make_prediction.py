@@ -37,7 +37,7 @@ def preprocess_inputs(job_title, experience_level, employee_country, company_cou
 
 def load_model():
     #model_path = os.path.join(os.path.dirname(__file__), '..', '..', 'model-pkg', 'best_cbr_reg_model_country.pkl') # original
-    model_path = os.path.join(os.path.dirname(__file__), 'best_cbr_reg_model_country_api.pkl') # Para correrlo localmente
+    model_path = os.path.join(os.path.dirname(__file__), 'best_cbr_reg_model_country_api.pkl')
     with open(model_path, 'rb') as model_file:
         model = pickle.load(model_file)
     return model
