@@ -26,7 +26,7 @@ class Settings(BaseSettings):
         "https://localhost:8000",  # type: ignore
     ]
 
-    PROJECT_NAME: str = "Predicción Salarios"
+    PROJECT_NAME: str = "Predicción Salarios API"
 
     class Config:
         case_sensitive = True
